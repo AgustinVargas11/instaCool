@@ -1,0 +1,31 @@
+{
+  "name": "instacool",
+  "version": "0.0.1",
+  "description": "enter instagram username and get back their most liked image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinVargas11/instaCool.git"
+  },
+  "keywords": [
+    "instagram"
+  ],
+  "author": "Agustin Vargas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgustinVargas11/instaCool/issues"
+  },
+  "homepage": "https://github.com/AgustinVargas11/instaCool#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "node-inspector": "^0.12.8",
+    "nodemon": "^1.9.2"
+  }
+}
