@@ -1,0 +1,188 @@
+form {
+	width: 600px;
+	height: 800px;
+	background-color: #28343c;
+	border-radius: 25PX;
+	box-shadow: -2px 2px 20px rgba(0, 0, 0, .5);
+	margin: 3em auto;
+	position: relative;
+}
+
+#heart1 {
+	position: absolute;
+	right: 180px;
+	top: 50px;
+	transform: rotate(30deg);
+	color: #FF6666;
+}
+
+#heart2 {
+	position: absolute;
+	right: 205px;
+	top: 40px;
+	transform: rotate(-15deg);
+	color: #FF6666;
+}
+
+#heart3 {
+	position: absolute;
+	right: 190px;
+	top: 30px;
+	color: #FF6666;
+	font-size: .7em;
+}
+
+.overlay {
+	position: absolute;
+	right: 176px;
+	top: 401px;
+	background: rgba(0, 0, 0, .75);
+	border-radius: .25em 0 25px 25px;
+	height: 50.5px;
+	width: 248px;
+}
+
+.overlay-text {
+	position: absolute;
+	top: 405px;
+	left: 265px;
+	font-family: 'Muli';
+	font-size: 1.4em;
+	font-weight: bold;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.fa-heart:before {
+	padding-right: .125em;
+	color: #FF6666;
+	font-size: 1.2em;
+}
+
+.overlay i {
+	padding-left: .125em;
+	color: #FFF;
+	text-shadow: -1.5px 2px 5px rgba(0, 0, 0, 1);
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+}
+
+
+hr {
+	border-color: #222;
+}
+
+.small {
+	height: 400px;
+}
+
+.profilepic {
+	width: 110px;
+	height: 110px;
+	margin: 1em;
+	border-radius: 50%;
+	border: 1px solid #222;
+	padding: .325em;
+	box-shadow: -3px 3px 10px rgba(0, 0, 0, .5);
+	background: #222;
+}
+
+a {
+	text-decoration: none;
+}
+
+.search {
+	color: dodgerblue;
+}
+
+
+.mostlikedpic {
+	width: 230px;
+	height: 230px;
+	margin: auto;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 220px;
+	border: 1px solid #222;
+	padding: .5em;
+	background: #FFF;
+	box-shadow: -2px 2px 8px 1px rgba(0, 0, 0, .3);
+}
+
+form h1 {
+	text-align: center;
+	font-family: sans-serif;
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	left: 150px;
+	margin: auto;
+	font-family: 'Amatic SC';
+	font-size: 4.5em;
+	letter-spacing: 7px;
+	color: #DDD;
+	text-shadow: -2px 2px 10px rgba(0, 0, 0, .8);5
+}
+
+.shrink {
+	font-size: 2.5em !important;
+}
+
+form h3 {
+	text-align: center;
+	font-family: 'Quattrocento';
+	font-size: 1.35em;
+	color: #DDD;
+}
+
+form input {
+	position: absolute;
+	top: 200px;
+	width: 350px;
+	height: 50px;
+	font-size: 1.5em;
+	font-family: 'Muli';
+	text-align: center;
+	margin: auto;
+	left: 0;
+	right: 0;
+	border-radius: .25em;
+	outline: none !important;
+}
+
+.content {
+	position: absolute;
+	top: 460px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 1em;
+	padding: .5em;
+	color: #DDD;
+}
+
+.content p {
+	font-family: 'Quattrocento';
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: ;
+}
+
+form input[type="submit"], 
+form input[type="submit"]:active, 
+form input[type="submit"]:focus {
+	height: 50px;
+	position: absolute;
+	bottom: 20px;
+	background: #666;
+	border: none;
+	font-family: 'Muli';
+	font-size: 2em;
+	color: white;
+	border-bottom: 2px solid #333;
+	outline: none;
+}
+
