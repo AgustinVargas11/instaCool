@@ -4,6 +4,7 @@ var express = require('express');
 var request = require('request');
 var bodyParser = require('body-parser');
 var app = express();
+var port = process.env.Port || 3000;
 
 
 app.use('/static', express.static(__dirname + '/public'));
@@ -83,7 +84,7 @@ app.get('/:username', function(req, res) {
 	});	
 });
  
-app.listen(3000, function(){
+app.listen(port, function(){
 	console.log('Front-end server is running on port 3000...');
 });
 
