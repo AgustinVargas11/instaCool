@@ -1,8 +1,8 @@
 form {
 	width: 600px;
-	height: 800px;
+	height: 835px;
 	background-color: #28343c;
-	border-radius: 25PX;
+	border-radius: 25px;
 	box-shadow: -2px 2px 20px rgba(0, 0, 0, .5);
 	margin: 3em auto;
 	position: relative;
@@ -34,12 +34,12 @@ form {
 
 .overlay {
 	position: absolute;
-	right: 176px;
+	right: 175px;
 	top: 401px;
 	background: rgba(0, 0, 0, .75);
 	border-radius: .25em 0 25px 25px;
 	height: 50.5px;
-	width: 248px;
+	width: 251px;
 }
 
 .overlay-text {
@@ -99,13 +99,13 @@ a {
 
 .mostlikedpic {
 	width: 230px;
-	height: 230px;
+	height: 200px;
 	margin: auto;
 	border-radius: 25px;
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 220px;
+	top: 250px;
 	border: 1px solid #222;
 	padding: .5em;
 	background: #FFF;
