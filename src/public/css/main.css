@@ -2,7 +2,7 @@ form {
 	width: 600px;
 	height: 835px;
 	background-color: #28343c;
-	border-radius: 25px;
+	border-radius: 25PX;
 	box-shadow: -2px 2px 20px rgba(0, 0, 0, .5);
 	margin: 3em auto;
 	position: relative;
@@ -176,8 +176,8 @@ form input {
 	font-weight: bold;
 }
 
-form input[type="submit"], 
-form input[type="submit"]:active, 
+form input[type="submit"],
+form input[type="submit"]:active,
 form input[type="submit"]:focus {
 	height: 50px;
 	position: absolute;
@@ -191,3 +191,12 @@ form input[type="submit"]:focus {
 	outline: none;
 }
 
+.warn {
+	border: 1px solid red;
+}
+
+form h5 {
+	text-align: center;
+	margin: auto;
+	color: white;
+}
